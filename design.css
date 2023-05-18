@@ -1,0 +1,125 @@
+
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+
+@media screen and (max-width:375px) {
+    .d-flex .col-12 {
+        justify-content: center;
+        margin: 5px;
+        padding: 5px;
+     }
+     button{width: auto;
+     }
+    
+    p{
+      font-size: small;
+    }
+    
+    h3{
+      font-size: small;
+    }
+    h2{
+      font-size: small;
+    }
+    h4{
+      font-size: small;
+    }
+    .btn1{
+  
+        color:rgb(228, 17, 17);
+        border-top-color: rgb(241, 52, 19);
+        border-bottom-color: rgb(233, 54, 22);
+        border-left-color: rgb(228, 56, 26);
+        border-right-color: rgb(221, 50, 20);
+        background-color: white;
+      
+      }
+      
+    
+    
+     img{
+      width:50%;
+      height: 50%;
+     }
+     .card-text{
+      font-size: small;
+     
+    
+    }
+    
+    #man{
+      display: none;
+    }
+    
+    
+    h6{
+      font-size: 10px
+    }
+    #m{
+      display: none
+    }
+    
+    }
+  
+  
+  .App-header {
+    background-color: #d4ddf0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  
+  .card-img-top{
+    border-radius: 50%;
+    width:4rem;
+    height:3rem
+  }
+  
+  .back{
+    background-color: rgba(243, 243, 127, 0.877);
+  }
+  
+  .active1{
+    border: 1px solid rgb(96, 107, 204);
+  }
+  
+  .active2{
+    border: 1px solid rgb(23, 24, 31);
+  }
+  
+  .h{
+    margin-left: 7px;
+  }
+  .s{
+    color: red;
+  }
+  input[type=text] {
+    background: transparent;
+  }
+  
+  .contact{
+    display: flex ;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+  }
+  
